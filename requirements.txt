@@ -1,0 +1,43 @@
+# Core ML/DL
+numpy==1.22.4
+
+# LIBERO environment
+-e git+https://github.com/Lifelong-Robot-Learning/LIBERO.git@f78abd68ee283de9f9be3c8f7e2a9ad60246e95c#egg=libero
+robomimic==0.2.0
+robosuite==1.4.1
+bddl==1.0.1
+
+# Simulation
+mujoco==3.1.3
+gym==0.25.2
+
+# Configuration management
+hydra-core==1.2.0
+omegaconf==2.3.0
+easydict==1.9
+PyYAML==6.0.1
+
+# Data handling
+h5py==3.11.0
+cloudpickle==2.1.0
+
+# Image processing & visualization
+opencv-python==4.6.0.66
+pillow==10.3.0
+matplotlib==3.5.3
+
+# Tensor operations
+einops==0.4.1
+
+# Language models (for task embeddings)
+transformers==4.21.1
+
+thop==0.1.1-2209072238
+
+# Experiment tracking
+wandb==0.13.1
+moviepy==1.0.3
+imageio==2.34.1
+
+# Utilities
+future==0.18.2
